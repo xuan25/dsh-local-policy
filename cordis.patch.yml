@@ -1,0 +1,24 @@
+# Remove DeepSeek as the default web search provider.
+- id: web
+  config:
+    fetchProvider: http
+
+# Disable DeepSeek official integrations.
+- id: llm-deepseek
+  disabled: true
+
+- id: deepseek-llm-api-extensions
+  disabled: true
+
+- id: session-log-deepseek
+  disabled: true
+
+- id: plugin-package-inventory-deepseek
+  disabled: true
+
+- id: web-search-deepseek
+  disabled: true
+
+# Disable OpenTelemetry session reporting.
+- id: session-telemetry-otel
+  disabled: true

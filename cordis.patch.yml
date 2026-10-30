@@ -19,6 +19,27 @@
 - id: web-search-deepseek
   disabled: true
 
+- id: llm-deepseek-account
+  disabled: true
+
+- id: ui-settings-account
+  disabled: true
+
+- id: account-controller
+  disabled: true
+
+- id: ui-message-feedback
+  disabled: true
+
+- id: ui-deepseek-model-label-1017
+  disabled: true
+
+- id: command-feedback
+  disabled: true
+
+- id: ui-brand-official
+  disabled: true
+
 # Disable OpenTelemetry session reporting.
 - id: session-telemetry-otel
   disabled: true
